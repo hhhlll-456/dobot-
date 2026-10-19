@@ -7,6 +7,9 @@ compatibility: Linux + ROS 2 Jazzy + /home/hanli/fyp_ws；Claude Code 与 openco
 # Dobot 吸盘视觉抓取（S1）
 
 把「相机看到物体」变成「吸嘴落到物体上、吸住、抬走」的完整闭环。
+**本 skill 就是 S1「机械臂 B 从小车 A 取物体」的操作版**；项目内的实施记录见
+`/home/hanli/ros2机械臂项目/ROS2_ws/S1_取件流程.md` 第 0.1 节与
+`S1-S4_全流程.md` 的 S1 段。
 本 skill 的命令默认在本机工作区 `/home/hanli/fyp_ws` 执行，脚本是
 `src/fyp_bringup/scripts/pick_cycle_pnp.py`，配置是
 `src/fyp_bringup/config/s1_pnp.json`。

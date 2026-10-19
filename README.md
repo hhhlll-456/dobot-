@@ -4,6 +4,9 @@ Dobot 机械臂**吸盘视觉抓取**的可复用 skill。把一次成功抓取�
 流程、标定关系和踩过的坑沉淀下来：换相机、换机械臂、挪物体位置，仍按同一
 套流程重新标定并抓取。
 
+本 skill 对应的就是 S1：**机械臂 B 从小车 A 上取物体**。项目内的实施记录
+在 `ROS2_ws/S1_取件流程.md` 第 0.1 节和 `S1-S4_全流程.md` 的 S1 段。
+
 - 兼容 **Claude Code** 与 **opencode**（同一份 skill，安装在两边的标准目录）
 - 遵循 Anthropic Agent Skills 格式：`SKILL.md` + `references/` + `scripts/`
 - 面向 ROS 2 Jazzy / Dobot Magician / OpenCV / ArUco
